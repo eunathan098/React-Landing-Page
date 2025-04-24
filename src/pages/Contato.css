@@ -46,3 +46,16 @@
     background-color: yellow;
     margin: 20px;
 }
+
+.container-redes-sociais .contato-title{
+    color: rgba(0, 0, 0, 0.497);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.contato-title{
+    color: rgba(0, 0, 0, 0.497);
+    font-family: "Nunito", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}

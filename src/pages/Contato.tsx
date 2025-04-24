@@ -20,7 +20,7 @@ function Contato(){
         <>
             <Header></Header>
             <div className="container-redes-sociais">
-                <h1> Nossas redes soiais </h1>
+                <h1 className="contato-title"> Nossas redes sociais </h1>
                 <div className="container">
                     <img src={iconeLogoWhatsApp} alt="Logo" height={"70px"}/>
                     <img src={iconeLogoFacebook} alt="Logo" height={"70px"}/>
@@ -29,7 +29,7 @@ function Contato(){
                 </div>
             </div>
             <div className="container-logalization">
-                    <h1> Nossa Localização </h1>
+                    <h1 className="contato-title"> Nossa Localização </h1>
                 <div className="container-maps">
                     {/* <Localization></Localization> */}
                 </div>

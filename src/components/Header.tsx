@@ -6,9 +6,6 @@ function Header(){
         <div className="header-container">
             <NavBar></NavBar>
         </div>
-
-
-
     )
 }
 export default Header

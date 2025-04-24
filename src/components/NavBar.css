@@ -17,6 +17,7 @@ ul li{
     transition: ease-in-out 0.3s;
     cursor: pointer;
     background-color: transparent;
+    font-family: "Nunito", sans-serif;
 }
 
 ul li:hover{

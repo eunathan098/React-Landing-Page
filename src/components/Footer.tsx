@@ -4,7 +4,7 @@ function Footer(){
     return(
         <>
             <div className="container-footer">
-                <p> Todos os direitos reservados </p>
+                <p className='header-title'> Todos os direitos reservados </p>
             </div>
         </>
     )
