@@ -1,5 +1,6 @@
 import './NavBar.css';
 import iconeLogo from '../assets/icone-logo.png';
+import iconeLogoPerfil from '../assets/logo-nathan.jpg';
 import { Link } from 'react-router-dom';
 
 function NavBar(){
@@ -15,6 +16,7 @@ function NavBar(){
                     <li> <Link to="/contato" style={
                         { color: "#fff", textDecoration: "none", fontSize: "20px"}}> Contato </Link></li>
                 </ul>
+                <img id="logo-perfil" src={iconeLogoPerfil} alt="Logo" />
             </nav>
         </>
     )

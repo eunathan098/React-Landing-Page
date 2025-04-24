@@ -41,10 +41,12 @@
 }
 
 .container-maps{
-    height: 300px;
-    width: 300px;
-    background-color: yellow;
-    margin: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 40px;
 }
 
 .container-redes-sociais .contato-title{
