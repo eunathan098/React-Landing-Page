@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Servicos from './pages/Servicos';
 import Contato from './pages/Contato';
-import NaoEncontrado from './components/NaoEncontrado';
+// import NaoEncontrado from './components/NaoEncontrado';
 
 function App() {
 
@@ -17,7 +17,7 @@ function App() {
           <Route path='/servicos' element={<Servicos></Servicos>}></Route>
           <Route path='/contato' element={<Contato></Contato>}></Route>
           {/* Rota Coringa - Caso não Exista */}
-          <Route path='*' element={<NaoEncontrado></NaoEncontrado>}></Route>
+          {/* <Route path='*' element={<NaoEncontrado></NaoEncontrado>}></Route> */}
         </Routes>
       </BrowserRouter>
     </>
