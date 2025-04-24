@@ -1,0 +1,12 @@
+.container-footer{
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+}
+
+p{
+    color: #fff;
+}
