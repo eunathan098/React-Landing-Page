@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter basename="/React-Landing-Page">
+      <BrowserRouter>
         <Routes>
           <Route path='/home' element={<Home></Home>}></Route>
           <Route path='/servicos' element={<Servicos></Servicos>}></Route>
