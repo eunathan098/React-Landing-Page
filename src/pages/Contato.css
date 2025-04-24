@@ -1,0 +1,48 @@
+.container-redes-sociais{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 100%;
+    flex-direction: column;
+}
+
+.container-redes-sociais h1{
+    color: black;
+    margin-bottom: 20px;
+}
+
+.container{
+    display: flex;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.074);
+    gap: 20px;
+    border-radius: 20px;
+}
+
+.container img{
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+}
+
+.container img:hover{
+    transform: scale(1.2);
+}
+
+.container-logalization{
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(89, 89, 252, 0.069), white);
+    flex-direction: column;
+}
+
+.container-maps{
+    height: 300px;
+    width: 300px;
+    background-color: yellow;
+    margin: 20px;
+}
