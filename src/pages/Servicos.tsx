@@ -6,9 +6,9 @@ import Section from "../components/Section";
 function Servicos(){
 
     useEffect(() => {
-            document.title = "Servicos";
-          }, []);
-    return(
+                document.title = "Servicos";
+            }, []);
+        return(
         <>
             <Header></Header>
             <Section titulo1="Conheça nossos serviços" titulo2="Um atendente irá te atender..." />

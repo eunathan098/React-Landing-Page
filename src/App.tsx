@@ -1,5 +1,5 @@
 import './App.css';
-import { Routes, Route, HashRouter } from 'react-router-dom';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
 // Páginas de acesso
 import Home from './pages/Home';
 import Servicos from './pages/Servicos';
@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      <HashRouter>
+      <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home></Home>}></Route>
           <Route path='/home' element={<Home></Home>}></Route>
@@ -19,7 +19,7 @@ function App() {
           {/* Rota Coringa - Caso não Exista */}
           {/* <Route path='*' element={<NaoEncontrado></NaoEncontrado>}></Route> */}
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </>
   )
 }
