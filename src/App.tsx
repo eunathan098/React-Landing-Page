@@ -10,9 +10,8 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/React-Landing-Page">
         <Routes>
-          <Route path='/' element={<Home></Home>}></Route>
           <Route path='/home' element={<Home></Home>}></Route>
           <Route path='/servicos' element={<Servicos></Servicos>}></Route>
           <Route path='/contato' element={<Contato></Contato>}></Route>
