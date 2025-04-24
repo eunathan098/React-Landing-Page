@@ -6,7 +6,7 @@ function NavBar(){
     return(
         <>
             <nav>
-                <img src={iconeLogo} alt="Logo" height={ "40px"}/>
+                <img src={iconeLogo} alt="Logo" height={"40px"}/>
                 <ul>
                     <li> <Link to="/home" style={
                         { color: "#fff", textDecoration: "none", fontSize: "20px"}}> Home </Link></li>
