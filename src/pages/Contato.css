@@ -15,11 +15,15 @@
 
 .container{
     display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.074);
     gap: 20px;
     border-radius: 20px;
     margin-bottom: 30px;
+    width: 600px;
 }
 
 .container img{
@@ -89,4 +93,81 @@
 #btn-contato:hover{
     opacity: 0.7;
     transform: scale(1.2);
+}
+
+/* Formulário de e-mail */
+
+.container-form-background{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-form{
+    display: flex;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 20px ;
+    box-shadow: 0px 0px 5px 0px black;
+    margin: 20px;
+    width: 600px;
+}
+
+form{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form-title{
+    padding: 20px;
+    color: #fff;
+    font-size: 20px;
+    width: 100%;
+    background-color: blue;
+    font-family: "Nunito", sans-serif;
+    margin-bottom: 20px;
+}
+
+.container-span{
+    display: flex;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    width: 100%;
+    background-color: rgba(254, 240, 240, 0.77);
+}
+
+.container-span span{
+    padding-left: 10px;
+    color: rgba(0, 0, 0, 0.401);
+    font-family: "Nunito", sans-serif;
+}
+
+label{
+    width: 100%;
+}
+
+label input{
+    padding: 10px;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.356);
+    font-family: "Nunito", sans-serif;
+    outline: none;
+    font-size: 18px;
+
+}
+textarea{
+    display: flex;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.356);
+    padding-left: 10px;
+    padding-top: 10px;
+    font-family: "Nunito", sans-serif;
 }

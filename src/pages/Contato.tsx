@@ -38,6 +38,44 @@ function Contato(){
                     </iframe>
                 </div>
             </div>
+            <div className="container-form-background">
+                <div className="container-form">
+                    <h1 className="form-title"> Deixe uma mensagem </h1>
+                <form>
+                    <label>
+                        <div className="container-span">
+                            <span>
+                                Nome:
+                            </span>
+                        </div>
+                        <input type="text" placeholder="Digite o seu nome..." />
+                    </label><br></br>
+
+                    <label>
+                        <div className="container-span">
+                            <span>
+                                Seu e-mail:
+                            </span>
+                        </div>
+                        <input type="text" placeholder="Digite o seu e-mail..." />
+                    </label><br></br>
+
+                    <label>
+                        <div className="container-span">
+                            <span>
+                                Mensagem:
+                            </span>
+                        </div>
+                        <textarea name="" id="" placeholder="Digite a sua mensagem...">
+
+
+                        </textarea>
+                    </label>
+                </form>
+                </div>
+                
+                
+            </div>
             <Footer></Footer>
         </>
     )
